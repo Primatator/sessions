@@ -1,4 +1,9 @@
 <?php
+session_start();
+
+$_SESSION['utilisateur']= "Dupont";
+
+echo "Bonjour M.".$_SESSION['utilisateur']. "!";
 
 // index.php?page=produit&art=3
 
@@ -45,6 +50,7 @@ switch($page) {
                     <a class="nav-link" href="#">Tous nos produits <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
+            <a href="connection.php"><input type="button" value="Se connecter"></a>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
