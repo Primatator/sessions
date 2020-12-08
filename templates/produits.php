@@ -3,40 +3,13 @@ require_once "tab.php";
 
 ?>
 
-<div class="jumbotron">
-    <h1 class="display-4">Bienvenue sur notre site de vente de produits régionaux!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://place-hold.it/500x300" class="d-block w-100" alt="...">
+<div class="jumbotron row">
+    <div class="col-md-10 m-auto">
+        <h1 class="display-4">Bienvenue sur notre site de vente de produits régionaux!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
     </div>
-    <div class="carousel-item">
-      <img src="https://place-hold.it/500x300" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://place-hold.it/500x300" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
 </div>
 
 <div class="row mt-4">

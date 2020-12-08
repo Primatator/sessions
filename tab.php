@@ -1,28 +1,28 @@
 <?php
 $articles = [
     0 => [
-        "nom" => "Article 1",
+        "nom" => "Tomme des Alpes",
         "ref" => "art1",
         "description" => "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis debitis sequi ad vel, aliquam asperiores mollitia! Quod error facere ut natus non incidunt porro culpa?",
         "stock" => 70,
         "prix" => 10.90,
-        "image" => "https://place-hold.it/500x300"
+        "image" => "img/from1.jpg"
     ],
     1 => [
-        "nom" => "Article 2",
+        "nom" => "Huile d'olives direct producteur",
         "ref" => "art2",
         "description" => "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis debitis sequi ad vel, aliquam asperiores mollitia! Quod error facere ut natus non incidunt porro culpa?",
         "stock" => 70,
         "prix" => 10.90,
-        "image" => "https://place-hold.it/500x300"
+        "image" => "img/huile.jpg"
     ],
     2 => [
-        "nom" => "Article 3",
+        "nom" => "Pickles apéritif",
         "ref" => "art3",
         "description" => "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis debitis sequi ad vel, aliquam asperiores mollitia! Quod error facere ut natus non incidunt porro culpa?",
         "stock" => 70,
         "prix" => 10.90,
-        "image" => "https://place-hold.it/500x300"
+        "image" => "img/conserves.jpg"
     ],
     3 => [
         "nom" => "Article 4",
@@ -30,7 +30,7 @@ $articles = [
         "description" => "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis debitis sequi ad vel, aliquam asperiores mollitia! Quod error facere ut natus non incidunt porro culpa?",
         "stock" => 70,
         "prix" => 10.90,
-        "image" => "https://place-hold.it/500x300"
+        "image" => "img/miel.jpg"
     ],
     4 => [
         "nom" => "Article 5",
@@ -38,7 +38,7 @@ $articles = [
         "description" => "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis debitis sequi ad vel, aliquam asperiores mollitia! Quod error facere ut natus non incidunt porro culpa?",
         "stock" => 70,
         "prix" => 10.90,
-        "image" => "https://place-hold.it/500x300"
+        "image" => "img/tapenade.jpg"
     ],
     5 => [
         "nom" => "Article 6",
@@ -46,7 +46,7 @@ $articles = [
         "description" => "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis debitis sequi ad vel, aliquam asperiores mollitia! Quod error facere ut natus non incidunt porro culpa?",
         "stock" => 70,
         "prix" => 10.90,
-        "image" => "https://place-hold.it/500x300"
+        "image" => "img/from2.jpg"
     ]
 ];
 

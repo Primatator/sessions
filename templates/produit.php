@@ -29,7 +29,7 @@ $article = $articles[$indice];
             </div>
             <p><?= $article["description"] ?></p>
             <p class="card-text text-primary h4"><?= $article["prix"] ?> €</p>
-            <a class="btn btn-primary" href="index.php?page=panier" role="button">Ajouter au panier</a>
+            <a class="btn btn-primary" href="#" role="button">Ajouter au panier</a>
         </div>
     </div>
 </div>
